@@ -1,29 +1,32 @@
 ## Customer Shopping Behavior Analysis
 
-# Overview
+## Overview
 
 This end-to-end data analytics project analyzes customer shopping behavior to uncover patterns in purchasing habits, product preferences, discount usage, and revenue trends. The goal is to generate actionable insights that can help businesses improve their sales strategy and customer retention.
 
 The project covers the full data analytics workflow — from raw data exploration to an interactive dashboard and a professional presentation.
 
-# Dataset
+## Dataset
 
-File - 
+File - customer_shopping_behavior.csv
+Source - Available in this repository
+Records - ~3,900 customer transactions
+Key Columns - Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount, Discount Applied, Subscription Status, Review Rating, Previous Purchases, Shipping Type
 
 The dataset covers customer demographics, product details, and transaction attributes across multiple retail categories.
 
+## Tools Used
 
+Python (Pandas) - Data loading, cleaning, and exploratory data analysis (EDA)
+PostgreSQL - Querying and aggregating data using SQL
+Power BI - Interactive dashboard and data visualization
+Microsoft Word - Project report with findings and recommendations
+Gamma - Professional presentation (PPT)
+GitHub - Version control and project hosting
 
+## Project Steps
 
-Tools Used
-
-ToolPurposePython (Pandas, Matplotlib, Seaborn)Data loading, cleaning, and exploratory data analysis (EDA)PostgreSQLQuerying and aggregating data using SQLPower BIInteractive dashboard and data visualizationMicrosoft WordProject report with findings and recommendationsGammaProfessional presentation (PPT)GitHubVersion control and project hosting
-
-
-Project Steps
-
-1. Data Loading & Exploration (Python)
-
+# 1. Data Loading & Exploration (Python
 
 Loaded the dataset using Pandas
 Inspected data types, shape, and column names
@@ -31,8 +34,7 @@ Checked for missing values and duplicates
 Explored basic statistics (mean, median, distribution)
 
 
-2. Data Cleaning (Python)
-
+# 2. Data Cleaning (Python)
 
 Removed duplicate rows
 Handled null/missing values
@@ -40,8 +42,7 @@ Standardized column formats (e.g., text casing, data types)
 Created derived columns such as age_group for segmentation
 
 
-3. Exploratory Data Analysis — EDA (Python)
-
+# 3. Exploratory Data Analysis — EDA (Python)
 
 Visualized purchase amount distribution by gender, age group, and category
 Analyzed discount usage patterns
@@ -49,10 +50,9 @@ Explored review ratings across products
 Identified top-performing categories and items
 
 
-4. SQL Analysis (PostgreSQL)
+# 4. SQL Analysis (PostgreSQL)
 
 Ran 10 business-focused queries, including:
-
 
 Total revenue by gender
 Customers who used discounts but still spent above average
@@ -61,8 +61,6 @@ Subscription vs. non-subscription spending comparison
 Customer segmentation: New, Returning, and Loyal
 Top 3 products per category using window functions
 Revenue contribution by age group
-
-
 
 SQL file: customer_behavior_sql_queries.sql
 

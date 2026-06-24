@@ -1,4 +1,4 @@
-## Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
 ## Overview
 
@@ -8,25 +8,25 @@ The project covers the full data analytics workflow — from raw data exploratio
 
 ## Dataset
 
-File - customer_shopping_behavior.csv
-Source - Available in this repository
-Records - ~3,900 customer transactions
-Key Columns - Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount, Discount Applied, Subscription Status, Review Rating, Previous Purchases, Shipping Type
+1. File - customer_shopping_behavior.csv
+2. Source - Available in this repository
+3. Records - ~3,900 customer transactions
+4. Key Columns - Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount, Discount Applied, Subscription Status, Review Rating, Previous Purchases, Shipping Type
 
 The dataset covers customer demographics, product details, and transaction attributes across multiple retail categories.
 
 ## Tools Used
 
-Python (Pandas) - Data loading, cleaning, and exploratory data analysis (EDA)
-PostgreSQL - Querying and aggregating data using SQL
-Power BI - Interactive dashboard and data visualization
-Microsoft Word - Project report with findings and recommendations
-Gamma - Professional presentation (PPT)
-GitHub - Version control and project hosting
+1. Python (Pandas) - Data loading, cleaning, and exploratory data analysis (EDA)
+2. PostgreSQL - Querying and aggregating data using SQL
+3. Power BI - Interactive dashboard and data visualization
+4. Microsoft Word - Project report with findings and recommendations
+5. Gamma - Professional presentation (PPT)
+6. GitHub - Version control and project hosting
 
 ## Project Steps
 
-# 1. Data Loading & Exploration (Python
+### 1. Data Loading & Exploration (Python
 
 Loaded the dataset using Pandas
 Inspected data types, shape, and column names
@@ -34,7 +34,7 @@ Checked for missing values and duplicates
 Explored basic statistics (mean, median, distribution)
 
 
-# 2. Data Cleaning (Python)
+### 2. Data Cleaning (Python)
 
 Removed duplicate rows
 Handled null/missing values
@@ -42,7 +42,7 @@ Standardized column formats (e.g., text casing, data types)
 Created derived columns such as age_group for segmentation
 
 
-# 3. Exploratory Data Analysis — EDA (Python)
+### 3. Exploratory Data Analysis — EDA (Python)
 
 Visualized purchase amount distribution by gender, age group, and category
 Analyzed discount usage patterns
@@ -50,7 +50,7 @@ Explored review ratings across products
 Identified top-performing categories and items
 
 
-# 4. SQL Analysis (PostgreSQL)
+### 4. SQL Analysis (PostgreSQL)
 
 Ran 10 business-focused queries, including:
 
@@ -66,7 +66,7 @@ SQL file: customer_behavior_sql_queries.sql
 
 
 
-5. Dashboard (Power BI)
+### 5. Dashboard (Power BI)
 
 Built an interactive dashboard with slicers for gender, category, and subscription status
 Visualized KPIs: total revenue, average purchase amount, customer count
@@ -76,7 +76,7 @@ Dashboard file: customer_behavior_dashboard.pbix
 
 
 
-6. Report (Microsoft Word)
+### 6. Report (Microsoft Word)
 
 Documented project objectives, methodology, key findings, and recommendations
 Written for a non-technical business audience
@@ -84,7 +84,7 @@ Written for a non-technical business audience
 Report file: Customer_Shopping_Behavior_Analysis.docx
 
 
-7. Presentation (Gamma)
+### 7. Presentation (Gamma)
 
 Created a clean, visual slide deck summarizing the project
 Covers problem statement, approach, key insights, and recommendations
@@ -92,7 +92,7 @@ Covers problem statement, approach, key insights, and recommendations
 Presentation file: Customer-Shopping-Behavior-Analysis.pptx
 
 
-# Dashboard Preview
+## Dashboard Preview
 
 <img width="1175" height="641" alt="image" src="https://github.com/user-attachments/assets/1ffe9c1b-a9d8-4055-b8c1-6b701b2c0717" />
 
@@ -106,7 +106,7 @@ Category-wise Sales Breakdown
 
 
 
-# Key Results
+## Key Results
 
 1. Top Revenue Group - Loyal customers (10+ previous purchases) contribute the highest revenue
 2. Discount Impact - Certain customers used discounts yet still spent above average
@@ -116,9 +116,9 @@ Category-wise Sales Breakdown
 6. Review Ratings - Top-rated products did not always correlate with highest sales volume
 
 
-# How to Run
+## How to Run
 
-## Python Notebook
+### Python Notebook
 
 1. Clone this repository
 2. Install required libraries:
@@ -129,14 +129,14 @@ Open customer_shoppiing_behavior_analysis_.ipynb in Jupyter Notebook or Google C
 Run all cells from top to bottom
 
 
-## SQL Queries
+### SQL Queries
 
 1. Set up a PostgreSQL database and create a table named customer
 2. Import the dataset from customer_shopping_behavior.xlsx
 3. Open customer_behavior_sql_queries.sql in pgAdmin or any PostgreSQL client
 4. Run queries individually or all at once
 
-## Power BI Dashboard
+### Power BI Dashboard
 
 1. Download and install Power BI Desktop (free)
 2. Open customer_behavior_dashboard.pbix
@@ -144,7 +144,7 @@ Run all cells from top to bottom
 
 
 
-Repository Structure
+## Repository Structure
 
 📁 Customer-Shopping-Behavior-Analysis
 │

@@ -68,12 +68,9 @@ SQL file: customer_behavior_sql_queries.sql
 
 5. Dashboard (Power BI)
 
-
 Built an interactive dashboard with slicers for gender, category, and subscription status
 Visualized KPIs: total revenue, average purchase amount, customer count
 Included charts for revenue by age group, top products, and discount impact
-
-
 
 Dashboard file: customer_behavior_dashboard.pbix
 
@@ -81,38 +78,25 @@ Dashboard file: customer_behavior_dashboard.pbix
 
 6. Report (Microsoft Word)
 
-
 Documented project objectives, methodology, key findings, and recommendations
 Written for a non-technical business audience
-
-
 
 Report file: Customer_Shopping_Behavior_Analysis.docx
 
 
-
 7. Presentation (Gamma)
-
 
 Created a clean, visual slide deck summarizing the project
 Covers problem statement, approach, key insights, and recommendations
 
-
-
 Presentation file: Customer-Shopping-Behavior-Analysis.pptx
 
 
+## Dashboard Preview
 
-
-Dashboard Preview
-
-
-Open customer_behavior_dashboard.pbix in Power BI Desktop to interact with the full dashboard.
-
-
+<img width="1175" height="641" alt="image" src="https://github.com/user-attachments/assets/1ffe9c1b-a9d8-4055-b8c1-6b701b2c0717" />
 
 Key visuals included:
-
 
 Revenue by Gender and Age Group
 Top 10 Products by Purchase Volume
@@ -122,42 +106,41 @@ Category-wise Sales Breakdown
 
 
 
-Key Results
+# Key Results
 
-InsightFindingTop Revenue GroupLoyal customers (10+ previous purchases) contribute the highest revenueDiscount ImpactCertain customers used discounts yet still spent above averageSubscriber SpendingSubscribed customers showed higher average spend and total revenueTop Product CategoryClothing ranked highest in purchase volumeShipping PreferenceStandard shipping was more common but Express had slightly higher average spendReview RatingsTop-rated products did not always correlate with highest sales volume
-
-
-How to Run
-
-Python Notebook
-
-
-Clone this repository
-Install required libraries:
+Top Revenue Group - Loyal customers (10+ previous purchases) contribute the highest revenue
+Discount Impact - Certain customers used discounts yet still spent above average
+Subscriber Spending - Subscribed customers showed higher average spend and total revenue
+Top Product Category - Clothing ranked highest in purchase volume
+Shipping Preference - Standard shipping was more common but Express had slightly higher average spend
+Review Ratings - Top-rated products did not always correlate with highest sales volume
 
 
-   pip install pandas matplotlib seaborn openpyxl
+## How to Run
 
+# Python Notebook
+
+1. Clone this repository
+2. Install required libraries:
+   
+   import pandas as pd
 
 Open customer_shoppiing_behavior_analysis_.ipynb in Jupyter Notebook or Google Colab
 Run all cells from top to bottom
 
 
-SQL Queries
+# SQL Queries
 
+1. Set up a PostgreSQL database and create a table named customer
+2. Import the dataset from customer_shopping_behavior.xlsx
+3. Open customer_behavior_sql_queries.sql in pgAdmin or any PostgreSQL client
+4. Run queries individually or all at once
 
-Set up a PostgreSQL database and create a table named customer
-Import the dataset from customer_shopping_behavior.xlsx
-Open customer_behavior_sql_queries.sql in pgAdmin or any PostgreSQL client
-Run queries individually or all at once
+# Power BI Dashboard
 
-
-Power BI Dashboard
-
-
-Download and install Power BI Desktop (free)
-Open customer_behavior_dashboard.pbix
-Use the slicers and filters to explore the data interactively
+1. Download and install Power BI Desktop (free)
+2. Open customer_behavior_dashboard.pbix
+3. Use the slicers and filters to explore the data interactively
 
 
 
@@ -174,12 +157,10 @@ Repository Structure
 └── 📑 Customer-Shopping-Behavior-Analysis.pptx     ← Presentation
 
 
-About
+# About
 
 Project Type: Portfolio Project — End-to-End Data Analytics
-
 Domain: Retail / E-Commerce
-
 Skills Demonstrated: Data Cleaning, EDA, SQL (Window Functions, CTEs, Aggregations), Data Visualization, Dashboard Design, Business Reporting
 
 

@@ -92,7 +92,7 @@ Covers problem statement, approach, key insights, and recommendations
 Presentation file: Customer-Shopping-Behavior-Analysis.pptx
 
 
-## Dashboard Preview
+# Dashboard Preview
 
 <img width="1175" height="641" alt="image" src="https://github.com/user-attachments/assets/1ffe9c1b-a9d8-4055-b8c1-6b701b2c0717" />
 
@@ -108,17 +108,17 @@ Category-wise Sales Breakdown
 
 # Key Results
 
-Top Revenue Group - Loyal customers (10+ previous purchases) contribute the highest revenue
-Discount Impact - Certain customers used discounts yet still spent above average
-Subscriber Spending - Subscribed customers showed higher average spend and total revenue
-Top Product Category - Clothing ranked highest in purchase volume
-Shipping Preference - Standard shipping was more common but Express had slightly higher average spend
-Review Ratings - Top-rated products did not always correlate with highest sales volume
+1. Top Revenue Group - Loyal customers (10+ previous purchases) contribute the highest revenue
+2. Discount Impact - Certain customers used discounts yet still spent above average
+3. Subscriber Spending - Subscribed customers showed higher average spend and total revenue
+4. Top Product Category - Clothing ranked highest in purchase volume
+5. Shipping Preference - Standard shipping was more common but Express had slightly higher average spend
+6. Review Ratings - Top-rated products did not always correlate with highest sales volume
 
 
-## How to Run
+# How to Run
 
-# Python Notebook
+## Python Notebook
 
 1. Clone this repository
 2. Install required libraries:
@@ -129,14 +129,14 @@ Open customer_shoppiing_behavior_analysis_.ipynb in Jupyter Notebook or Google C
 Run all cells from top to bottom
 
 
-# SQL Queries
+## SQL Queries
 
 1. Set up a PostgreSQL database and create a table named customer
 2. Import the dataset from customer_shopping_behavior.xlsx
 3. Open customer_behavior_sql_queries.sql in pgAdmin or any PostgreSQL client
 4. Run queries individually or all at once
 
-# Power BI Dashboard
+## Power BI Dashboard
 
 1. Download and install Power BI Desktop (free)
 2. Open customer_behavior_dashboard.pbix
@@ -157,7 +157,7 @@ Repository Structure
 └── 📑 Customer-Shopping-Behavior-Analysis.pptx     ← Presentation
 
 
-# About
+## About
 
 Project Type: Portfolio Project — End-to-End Data Analytics
 Domain: Retail / E-Commerce

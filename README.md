@@ -142,21 +142,6 @@ Run all cells from top to bottom
 2. Open customer_behavior_dashboard.pbix
 3. Use the slicers and filters to explore the data interactively
 
-
-
-## Repository Structure
-
-📁 Customer-Shopping-Behavior-Analysis
-│
-├── 📄 README.md
-├── 📊 customer_shopping_behavior.xlsx              ← Dataset
-├── 📓 customer_shoppiing_behavior_analysis_.ipynb  ← Python EDA notebook
-├── 🗄️ customer_behavior_sql_queries.sql            ← SQL queries (PostgreSQL)
-├── 📊 customer_behavior_dashboard.pbix             ← Power BI dashboard
-├── 📝 Customer_Shopping_Behavior_Analysis.docx     ← Project report
-└── 📑 Customer-Shopping-Behavior-Analysis.pptx     ← Presentation
-
-
 ## About
 
 Project Type: Portfolio Project — End-to-End Data Analytics

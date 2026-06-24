@@ -1,2 +1,187 @@
-# customer_behavior-analysis
-Data analytics project showcasing customer behavior analysis using python, sql, power Bi.
+## Customer Shopping Behavior Analysis
+
+# Overview
+
+This end-to-end data analytics project analyzes customer shopping behavior to uncover patterns in purchasing habits, product preferences, discount usage, and revenue trends. The goal is to generate actionable insights that can help businesses improve their sales strategy and customer retention.
+
+The project covers the full data analytics workflow — from raw data exploration to an interactive dashboard and a professional presentation.
+
+# Dataset
+
+File - 
+
+The dataset covers customer demographics, product details, and transaction attributes across multiple retail categories.
+
+
+
+
+Tools Used
+
+ToolPurposePython (Pandas, Matplotlib, Seaborn)Data loading, cleaning, and exploratory data analysis (EDA)PostgreSQLQuerying and aggregating data using SQLPower BIInteractive dashboard and data visualizationMicrosoft WordProject report with findings and recommendationsGammaProfessional presentation (PPT)GitHubVersion control and project hosting
+
+
+Project Steps
+
+1. Data Loading & Exploration (Python)
+
+
+Loaded the dataset using Pandas
+Inspected data types, shape, and column names
+Checked for missing values and duplicates
+Explored basic statistics (mean, median, distribution)
+
+
+2. Data Cleaning (Python)
+
+
+Removed duplicate rows
+Handled null/missing values
+Standardized column formats (e.g., text casing, data types)
+Created derived columns such as age_group for segmentation
+
+
+3. Exploratory Data Analysis — EDA (Python)
+
+
+Visualized purchase amount distribution by gender, age group, and category
+Analyzed discount usage patterns
+Explored review ratings across products
+Identified top-performing categories and items
+
+
+4. SQL Analysis (PostgreSQL)
+
+Ran 10 business-focused queries, including:
+
+
+Total revenue by gender
+Customers who used discounts but still spent above average
+Top 5 products by average review rating
+Subscription vs. non-subscription spending comparison
+Customer segmentation: New, Returning, and Loyal
+Top 3 products per category using window functions
+Revenue contribution by age group
+
+
+
+SQL file: customer_behavior_sql_queries.sql
+
+
+
+5. Dashboard (Power BI)
+
+
+Built an interactive dashboard with slicers for gender, category, and subscription status
+Visualized KPIs: total revenue, average purchase amount, customer count
+Included charts for revenue by age group, top products, and discount impact
+
+
+
+Dashboard file: customer_behavior_dashboard.pbix
+
+
+
+6. Report (Microsoft Word)
+
+
+Documented project objectives, methodology, key findings, and recommendations
+Written for a non-technical business audience
+
+
+
+Report file: Customer_Shopping_Behavior_Analysis.docx
+
+
+
+7. Presentation (Gamma)
+
+
+Created a clean, visual slide deck summarizing the project
+Covers problem statement, approach, key insights, and recommendations
+
+
+
+Presentation file: Customer-Shopping-Behavior-Analysis.pptx
+
+
+
+
+Dashboard Preview
+
+
+Open customer_behavior_dashboard.pbix in Power BI Desktop to interact with the full dashboard.
+
+
+
+Key visuals included:
+
+
+Revenue by Gender and Age Group
+Top 10 Products by Purchase Volume
+Discount vs. Non-Discount Spend Comparison
+Subscriber vs. Non-Subscriber Revenue
+Category-wise Sales Breakdown
+
+
+
+Key Results
+
+InsightFindingTop Revenue GroupLoyal customers (10+ previous purchases) contribute the highest revenueDiscount ImpactCertain customers used discounts yet still spent above averageSubscriber SpendingSubscribed customers showed higher average spend and total revenueTop Product CategoryClothing ranked highest in purchase volumeShipping PreferenceStandard shipping was more common but Express had slightly higher average spendReview RatingsTop-rated products did not always correlate with highest sales volume
+
+
+How to Run
+
+Python Notebook
+
+
+Clone this repository
+Install required libraries:
+
+
+   pip install pandas matplotlib seaborn openpyxl
+
+
+Open customer_shoppiing_behavior_analysis_.ipynb in Jupyter Notebook or Google Colab
+Run all cells from top to bottom
+
+
+SQL Queries
+
+
+Set up a PostgreSQL database and create a table named customer
+Import the dataset from customer_shopping_behavior.xlsx
+Open customer_behavior_sql_queries.sql in pgAdmin or any PostgreSQL client
+Run queries individually or all at once
+
+
+Power BI Dashboard
+
+
+Download and install Power BI Desktop (free)
+Open customer_behavior_dashboard.pbix
+Use the slicers and filters to explore the data interactively
+
+
+
+Repository Structure
+
+📁 Customer-Shopping-Behavior-Analysis
+│
+├── 📄 README.md
+├── 📊 customer_shopping_behavior.xlsx              ← Dataset
+├── 📓 customer_shoppiing_behavior_analysis_.ipynb  ← Python EDA notebook
+├── 🗄️ customer_behavior_sql_queries.sql            ← SQL queries (PostgreSQL)
+├── 📊 customer_behavior_dashboard.pbix             ← Power BI dashboard
+├── 📝 Customer_Shopping_Behavior_Analysis.docx     ← Project report
+└── 📑 Customer-Shopping-Behavior-Analysis.pptx     ← Presentation
+
+
+About
+
+Project Type: Portfolio Project — End-to-End Data Analytics
+
+Domain: Retail / E-Commerce
+
+Skills Demonstrated: Data Cleaning, EDA, SQL (Window Functions, CTEs, Aggregations), Data Visualization, Dashboard Design, Business Reporting
+
+
